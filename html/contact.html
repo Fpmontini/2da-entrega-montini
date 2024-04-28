@@ -45,43 +45,48 @@
         </nav>
     </header>
 
-    <main>
+    <main class="fm__Main__contact">
 
-        <h1 class="fm__h1-main">Nuestros Cockpits</h1>
-        <div class="container-fluid">
-          <div class="row justify-content-around"> <!-- agregue justify para poder ubicar las cards -->
-            <div class=" fm__cards col-md-3 col-sm-12 m-2"> <!-- "fm_" clases personales-->
-              <div class="card-img">
-                <img src="../assets/basic.png" alt="cockpit-basic">
-              </div>
-              <div class="fm__card__description">
-                <h2>BASIC</h2>
-                <P>Nuestro modelo <b>BASIC</b> esta construido con perfiles de aluminio tipo bosh lo
-                  que le da al conjunto una gran resistencia. Las columanas centrales son de perfiles 4080 mientras que el resto es de 4040.</P>
-              </div>
+      <div class="container-fluid fm__contact_container">
+        <div class="row row__form justify-content-evenly align-items-center ">
+            <div class="fm__contact__container__info col-md-4">
+              <ul class="fm__contact__container__info__list">
+                  <h2 class="fm__contact__container__info__list--title"><b>Contacto</b></h2>
+                  <li class="fm__contact__container__info__list--li"><b>Telefono:</b> 11-6682-****</li>
+                  <li class="fm__contact__container__info__list--li"><b>Dirección:</b> Calle Falsa 123 CABA</li>
+                  <li class="fm__contact__container__info__list--li"><b>E-mail:</b> monbrosimracing@gmail.com</li>
+              </ul>
             </div>
-            <div class="fm__cards col-md-3 col-sm-12 m-2">
-              <div class="card-img">
-                <img src="../assets/cockpit - pro.png" alt="cockpit-pro">
-              </div>
-              <div class="fm__card__description">
-                <h2>PRO</h2>
-                <P>El modelo <b>PRO</b> a diferencia del basic esta construido enteramente con
-                  perfiles 4080. Pensado para bases direct drive de muchos NM y potencia.</P>
-              </div>
+            <div class="fm__contact__container__form col-md-6">
+                <form action="form.php" method="post">
+                    <h2 class="fm__contact__container__form--h2"> CONTACTANOS</h2>
+                    <p class="fm__contact__container__form--description">Si tenes alguna duda, pedido o sugerencia completa el formulario y nos pondremos
+                        en contacto
+                    </p>
+                    <div class="form-container">
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" class="form-input" placeholder="nombre">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">e-mail</label>
+                        <input type="email" id="email" class="form-input" placeholder="e-mail">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea type="text" id="mensaje" class="form-text_area" placeholder="mensaje"></textarea> 
+                    </div>
+                    <input type="submit" class="form-submit">
+                </form>
             </div>
-            <div class="fm__cards col-md-3 col-sm-12 m-2">
-              <div class="card-img">
-                <img src="../assets/gt-pro.png" alt="cockpit-gtpro">
-              </div>
-              <div class="fm__card__description">
-                <h2>GT-PRO</h2>
-                <P>Nuestro producto mas completo, el <b>Hibryd-PRO</b>. Un conjunto robusto,
-                  totalmente regulable en altura, distancia y en inclinacion. Podes elegir configurarlo tipo GT o Formula, de alli su nomenclaura.</P>
-              </div>
+            <div class="fm__contact__container__image d-none d-sm-block col-md-1">
+              <img src="../assets/headset-contact.png" alt="headset">
             </div>
+          </div>  
           </div>
         </div>
+      </div>
         
     </main>
 
