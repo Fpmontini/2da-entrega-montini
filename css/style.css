@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 20px;    
+    font-size: 20px;
 }
 
 /* fuentes */
@@ -13,25 +13,25 @@
     src: url(../fonts/Aero.ttf); 
  } */
 
- .jaldi-regular {
+.jaldi-regular {
     font-family: "jaldi", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
-  .jaldi-bold {
+}
+
+.jaldi-bold {
     font-family: "jaldi", sans-serif;
     font-weight: 700;
     font-style: normal;
-  }
+}
 
-  .audiowide-regular {
+.audiowide-regular {
     font-family: "Audiowide", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
-  /* clases generales */
+/* clases generales */
 
 .description {
     font-family: jaldi;
@@ -39,7 +39,7 @@
     color: #f5f5f5;
     text-align: justify;
 }
-    
+
 
 /* header */
 
@@ -55,21 +55,22 @@
 /* nav-bar*/
 
 .navbar-nav {
-  font-family: audiowide;
-  font-size: 1.2em;
-  color: #070707;
+    font-family: audiowide;
+    font-size: 1.2em;
+    color: #070707;
 }
-  .navbar-nav :hover {
-     transform: scale(1.1);
-      transition: 0.3s;
-      text-decoration: underline;
-    }  
+
+.navbar-nav :hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    text-decoration: underline;
+}
 
 
 /* main */
 main {
-  background-image: url(../assets/background-main4.jpg);
-  background-size: cover;  
+    background-image: url(../assets/background-main4.jpg);
+    background-size: cover;
 }
 
 .fm__h1-index {
@@ -87,10 +88,11 @@ main {
 
 .carousel-caption {
     position: absolute;
-    bottom:0;
+    bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.1); /* fondo semitransparente */
+    background-color: rgba(0, 0, 0, 0.1);
+    /* fondo semitransparente */
     padding: 0;
     color: white;
 }
@@ -121,9 +123,10 @@ main {
     min-width: 200px;
 }
 
-.fm__card__description{
+.fm__card__description {
     padding: 0 10px;
-    background-color: rgba(0, 0, 0, 0.1); /* fondo semitransparente */
+    background-color: rgba(0, 0, 0, 0.1);
+    /* fondo semitransparente */
 }
 
 .fm__card__description h2 {
@@ -156,6 +159,7 @@ main {
 .row__info {
     margin-top: 50px;
 }
+
 .fm__contact__container__form {
     align-self: center;
     text-align: center;
@@ -195,26 +199,29 @@ main {
     border: none;
     outline: none;
     text-align: center;
-    font-family:jaldi;
+    font-family: jaldi;
     font-size: 1em;
     background-color: #f5deb3;
     border-bottom: 3px solid #2076f7;
 }
-    .form-input:focus {
-        border: 2px dotted #0a0a0a;
-    }
+
+.form-input:focus {
+    border: 2px dotted #0a0a0a;
+}
+
 .form-text_area {
     width: 100%;
     height: 140px;
     text-align: justify;
-    font-family:jaldi;
+    font-family: jaldi;
     font-size: 0.8em;
     background-color: #f5deb3;
     border-bottom: 3px solid #2076f7;
 }
-    .form-text_area:focus {
+
+.form-text_area:focus {
     border: 2px dotted #0a0a0a;
-    }
+}
 
 .form-submit {
     width: 200px;
@@ -226,9 +233,6 @@ main {
     cursor: pointer;
 }
 
-.fm__contact__container__image {
-  
-}
 
 .fm__contact__container__image img {
     width: 100%;
@@ -270,7 +274,9 @@ main {
 
 /* main about-us */
 
-
+.fm__us-container {
+    padding-bottom: 20px;
+}
 .fm__us-container__section {
     background-color: #f5f5f5;
     border-radius: 10px;
@@ -290,15 +296,16 @@ main {
 .fm__us-container__section__article--text h2 {
     text-align: center;
 }
+
 /* footer */
 
 
 footer h2 {
-        font-size: 1.5rem;
-        -webkit-text-stroke: 0.5px #cc2059
-    }
+    font-size: 1.5rem;
+    -webkit-text-stroke: 0.5px #cc2059
+}
 
-    
+
 .fm__footer__container {
     padding: 25px;
     width: 100%;
@@ -307,7 +314,7 @@ footer h2 {
     font-family: audiowide;
     color: #f5f5f5;
 }
-    
+
 
 .footer-element {
     width: 450px;
@@ -321,29 +328,31 @@ footer h2 {
 }
 
 
-.fm__footer__container__links  {
+.fm__footer__container__links {
     text-decoration: none;
     color: #f4f5f8;
- }
+}
 
-    .fm__footer__container__links a {
-        color: #f4f5f8;
-    }
-        .fm__footer__container__links a :hover {
-            transform: scale(1.2);
-        }
+.fm__footer__container__links a {
+    color: #f4f5f8;
+}
+
+.fm__footer__container__links a :hover {
+    transform: scale(1.2);
+}
 
 
 
-    .fm__footer__container__mail a {
-        font-size: 25px;
-        font-family:jaldi !important;
-        text-decoration: none;
-        color: #f4f5f8;
-    }
-        .fm__footer__container__mail a:hover {
-            transform: scale(1.2);
-        }
+.fm__footer__container__mail a {
+    font-size: 25px;
+    font-family: jaldi !important;
+    text-decoration: none;
+    color: #f4f5f8;
+}
+
+.fm__footer__container__mail a:hover {
+    transform: scale(1.2);
+}
 
 .fm__footer-logo {
     justify-content: flex-end;
@@ -352,23 +361,27 @@ footer h2 {
     text-align: center;
     height: 100px;
 }
+
 .fm__footer__container__logo {
     text-align: center;
 }
+
 .fm__footer__container__logo img {
     width: 200px;
-        
-    }
+
+}
 
 /* @media */
 
 /* mobile */
 
-@media (max-width: 768px) {  
+@media (max-width: 768px) {
+
     /* header */
     .navbar-brand img {
         width: 100%;
     }
+
     .header__container {
         justify-content: flex-start;
     }
@@ -376,16 +389,18 @@ footer h2 {
     .fm__header-container {
         justify-content: start;
     }
-    
+
     /* main */
 
     .fm__h1-main {
-        font-size: 2em; /* Puedes ajustar este valor según tus necesidades */
-      }
-    
+        font-size: 2em;
+        /* Puedes ajustar este valor según tus necesidades */
+    }
+
     .row img {
         width: 90%;
     }
+
     .carousel {
         padding-bottom: 50;
     }
@@ -404,11 +419,12 @@ footer h2 {
 
     .footer-element {
         width: 50%;
-        }
+    }
 
     .fm__footer__container__email h2 {
         font-size: 1em;
     }
+
     .fm__footer__container__email a {
         font-family: jaldi;
         font-size: 1em;
@@ -423,12 +439,9 @@ footer h2 {
         font-size: 1em;
     }
 
-    .fm__footer__container__copyright p{
+    .fm__footer__container__copyright p {
         font-size: 1em;
     }
 
-    
+
 }
-    
-
-
