@@ -1,0 +1,39 @@
+
+/* main prodcuts */
+
+
+.fm__cards {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.card-img {
+    display: flex;
+    justify-content: center;
+
+         img {
+            width: 100%;
+            min-width: 200px;
+        }
+}
+.fm__card__description {
+    padding: 0 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    /* fondo semitransparente */
+    
+         h2 {
+            text-align: center;
+            color: #f5f5f5;
+            font-family: audiowide;
+            font-size: 1.5em;
+        }
+
+        p {
+            text-align: justify;
+            padding: 0 30px;
+            color: #f5f5f5;
+            font-family: jaldi;
+            font-size: 1em;
+        }
+}

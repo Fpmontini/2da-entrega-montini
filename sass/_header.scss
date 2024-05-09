@@ -1,0 +1,25 @@
+
+
+/* header */
+
+.fm__header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: #f5f5f5;
+    border-bottom: 5px solid #cc2059;
+}
+
+/* nav-bar*/
+
+.navbar-nav {
+    font-family: audiowide;
+    font-size: 1.2em;
+    color: #070707;
+     :hover {
+        transform: scale(1.1);
+        transition: 0.3s;
+        text-decoration: underline;
+    }
+}

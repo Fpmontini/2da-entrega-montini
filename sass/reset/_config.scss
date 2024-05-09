@@ -1,0 +1,43 @@
+
+
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+/* reset-fuentes */
+
+.jaldi-regular {
+    font-family: "jaldi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.jaldi-bold {
+    font-family: "jaldi", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.audiowide-regular {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+// TITULOS PRINCIPALES
+
+/* h1 */
+.fm__h1 {
+    padding: 150px 0 50px;
+    text-align: $h1-align;
+    color: $h1-color;
+    font-family: $h1-fonts;
+    font-size: $h1-size;
+}

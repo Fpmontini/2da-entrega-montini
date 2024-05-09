@@ -1,0 +1,122 @@
+
+
+/* main contact */
+
+.fm__Main__contact {
+    height: 1300px;
+}
+
+.row__form {
+    padding-top: 200px;
+}
+
+.row__info {
+    margin-top: 50px;
+}
+
+.fm__contact__container {
+
+    &__form {
+    align-self: center;
+    text-align: center;
+    max-width: 550px;
+    max-height: 700px;
+    padding: 4.5em 2em;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px;
+    background-color: #d8d3d3;
+    border: $contact__bdr--size solid $contact__bdr--color;
+    font-family: jaldi;
+    font-size: 1em;
+    color: #000000;
+
+        &__h2 {
+        color: #030303;
+            font-family: audiowide;
+            font-size: 2em;
+        }
+
+        &__description {
+            margin: 15px auto;
+        }
+    }
+
+    &__image {
+        img {
+            width: 100%;
+        }
+    }
+
+    &__info {
+        min-width: 400px;
+        align-self: flex-end;
+        margin-bottom: 30px;
+        background-color: #f5f5f5;
+        color: #0e0d0d;
+        border: $contact__bdr--size solid $contact__bdr--color;
+        border-radius: 5px;
+        font-family: jaldi;
+
+        &__list {
+            li {
+            padding: 20px;
+            list-style: none;
+            }
+            
+            h2 {
+            text-align: center;
+            }
+        }
+    }
+
+}
+
+
+.form-container {
+    width: 100%;
+}
+
+.form-group label {
+    font-family: audiowide;
+}
+
+.form-input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-family: jaldi;
+    font-size: 1em;
+    background-color: #f5deb3;
+    border-bottom:$contact__bdr__form--size solid $contact__bdr__form--color;
+
+        :focus {
+             border: 2px dotted #0a0a0a;
+            }
+}
+
+.form-text_area {
+    width: 100%;
+    height: 140px;
+    text-align: justify;
+    font-family: jaldi;
+    font-size: 0.8em;
+    background-color: #f5deb3;
+    border-bottom: $contact__bdr__form--size solid $contact__bdr__form--color;
+    
+        :focus {
+            border: 2px dotted #0a0a0a;
+        }
+}
+
+.form-submit {
+    width: 200px;
+    height: 50px;
+    margin: 30px;
+    font-family: audiowide;
+    background-color: #c5bdbdde;
+    border: $contact__bdr__form--size solid $contact__bdr__form--color;
+    cursor: pointer;
+}
+

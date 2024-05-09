@@ -1,0 +1,75 @@
+
+
+/* @media */
+
+/* mobile */
+
+@media (max-width: 768px) {
+
+    /* @header */
+    .navbar-brand img {
+        width: 100%;
+    }
+
+    .header__container {
+        justify-content: flex-start;
+    }
+
+    .fm__header-container {
+        justify-content: start;
+    }
+
+    
+    /* @main */
+
+    .fm__h1 {
+        font-size: 2em;
+        /* Puedes ajustar este valor según tus necesidades */
+    }
+
+    .row img {
+        width: 90%;
+    }
+
+    .carousel {
+        padding-bottom: 50;
+    }
+
+    .fm__faq__container__accordion {
+        padding: 10px;
+    }
+
+    .fm__contact__container__form {
+        padding: 5px;
+    }
+
+    /* @footer */
+
+    .footer-element {
+        width: 50%;
+    }
+
+    .fm__footer__container__email h2 {
+        font-size: 1em;
+    }
+
+    .fm__footer__container__email a {
+        font-family: jaldi;
+        font-size: 1em;
+    }
+
+
+    .fm__footer__container__links h2 {
+        font-size: 1em;
+    }
+
+    .fm__footer__container__links a {
+        font-size: 1em;
+    }
+
+    .fm__footer__container__copyright p {
+        font-size: 1em;
+    }
+
+
+}

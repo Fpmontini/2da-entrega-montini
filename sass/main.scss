@@ -1,0 +1,26 @@
+
+
+// resets 
+
+@import "./reset/variables";
+@import "./reset/config";
+
+
+// header
+
+@import "header";
+
+//main
+@import "./index/main-index";
+@import "./products/main-prodcuts";
+@import "./faq/main-faq";
+@import "./contact/main-contact";
+@import "./us/main-us";
+
+//footer
+
+@import "footer";
+
+//mq
+
+@import "media";
