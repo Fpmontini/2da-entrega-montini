@@ -7,6 +7,10 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-end;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
     background-color: #f5f5f5;
     border-bottom: 5px solid #cc2059;
 }

@@ -26,8 +26,8 @@
     box-shadow: 0 5px 10px -5px;
     background-color: #d8d3d3;
     border: $contact__bdr--size solid $contact__bdr--color;
-    font-family: jaldi;
-    font-size: 1em;
+    font-family: $txt-fonts;
+    font-size: $caption-size;
     color: #000000;
 
         &__h2 {
@@ -55,7 +55,7 @@
         color: #0e0d0d;
         border: $contact__bdr--size solid $contact__bdr--color;
         border-radius: 5px;
-        font-family: jaldi;
+        font-family: $txt-fonts;
 
         &__list {
             li {
@@ -64,6 +64,7 @@
             }
             
             h2 {
+            font-family: $h2-fonts;
             text-align: center;
             }
         }
@@ -86,7 +87,7 @@
     border: none;
     outline: none;
     text-align: center;
-    font-family: jaldi;
+    font-family: $txt-fonts;
     font-size: 1em;
     background-color: #f5deb3;
     border-bottom:$contact__bdr__form--size solid $contact__bdr__form--color;
@@ -100,7 +101,7 @@
     width: 100%;
     height: 140px;
     text-align: justify;
-    font-family: jaldi;
+    font-family: $txt-fonts;
     font-size: 0.8em;
     background-color: #f5deb3;
     border-bottom: $contact__bdr__form--size solid $contact__bdr__form--color;

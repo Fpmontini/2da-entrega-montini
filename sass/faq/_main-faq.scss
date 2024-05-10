@@ -4,11 +4,11 @@
 /* main faq */
 
 .accordion-header {
-    font-family: audiowide;
+    font-family: $h1-fonts;
 }
 
 .accordion-body {
-    font-family: jaldi;
+    font-family: $txt-fonts;
 }
 
 .accordion-item {

@@ -7,13 +7,27 @@ main {
 }
 
 
-.row img {
-    width: 50%;
+.row {
+    img {
+        width: 50%;
+    }
 }
+/* animaciones */
 
+.animate {
+    &__fadeInDown {
+    animation-duration: 3s;
+}
+    &__fadeInUp {
+    animation-duration: 3s;
+}
+    &__fadeIn{ 
+        animation-duration: 4s;
+    }
+}
 .carousel-caption {
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
     left: 0;
     right: 0;
     background-color: rgba(0, 0, 0, 0.1);

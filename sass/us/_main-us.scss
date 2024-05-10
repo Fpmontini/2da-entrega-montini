@@ -11,7 +11,7 @@
         border: 2px solid rgb(31, 30, 30);
 
         &__article--text{
-            font-family: jaldi-bold;
+            font-family: $txt-fonts;
             text-align: justify;
 
             h2 {
@@ -20,7 +20,7 @@
         }
 
         &__article--text2 {
-            font-family: jaldi-bold;
+            font-family: $txt-fonts;
             text-align: center;
         }
 

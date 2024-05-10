@@ -16,46 +16,55 @@ footer h2 {
     background-color: #3d3c3cde;
     font-family: audiowide;
     color: #f5f5f5;
+
+        &__copyright {
+            width: 100%;
+            font-family: audiowide;
+            color: #f5f5f5;
+            font-size: 1rem;
+        }
+        
+        &__links {
+            text-decoration: none;
+            color: #f4f5f8;
+
+            a {
+                color: #f4f5f8;
+            }
+            a:hover {
+                transform: scale(1.2);
+            }
+
+        }
+
+        &__mail {
+            a {
+                font-size: 25px;
+                font-family: jaldi !important;
+                text-decoration: none;
+                color: #f4f5f8;
+            }
+             a:hover {
+                transform: scale(1.2);
+            }
+        }
+
+        &__logo {
+            text-align: center;
+                img {
+                    width: 200px;
+            }
+        }
+
 }
+
 
 
 .footer-element {
     width: 450px;
 }
 
-.fm__footer__container__copyright {
-    width: 100%;
-    font-family: audiowide;
-    color: #f5f5f5;
-    font-size: 1rem;
-}
-
-
-.fm__footer__container__links {
-    text-decoration: none;
-    color: #f4f5f8;
-        a {
-            color: #f4f5f8;
-
-    }
-         a:hover {
-    transform: scale(1.2);
-}
-}
-
-
-
-.fm__footer__container__mail{
-     a {
-        font-size: 25px;
-        font-family: jaldi !important;
-        text-decoration: none;
-        color: #f4f5f8;
-    }
-     a:hover {
-        transform: scale(1.2);
-    }
-}
+     
 
 .fm__footer-logo {
     justify-content: flex-end;
@@ -65,9 +74,3 @@ footer h2 {
     height: 100px;
 }
 
-.fm__footer__container__logo {
-    text-align: center;
-     img {
-        width: 200px;
-    }
-}
