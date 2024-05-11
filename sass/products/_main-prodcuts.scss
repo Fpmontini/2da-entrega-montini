@@ -22,14 +22,11 @@
         p {
             text-align: justify;
             padding: 0 30px;
-            color: #f5f5f5;
-            font-family: $txt-fonts;
-            font-size: $caption-size;
+            @include caption-txt;
         }
     }
 
     &__img {
-        display: flex;
         justify-content: center;
 
         img {

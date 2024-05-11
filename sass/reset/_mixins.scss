@@ -1,0 +1,41 @@
+
+// SIN PARAMETROS
+
+@mixin h1-styles {
+    font-family:$h1-fonts; 
+    color: $h1-color; 
+    font-size:$h1-size;
+    text-align:$h1-align;
+}
+
+@mixin contact-bdr {
+    border-color: $contact__bdr--color;
+    border-width:$contact__bdr--size;
+    border-style: solid;
+}
+
+@mixin form-bdr {
+    border-color: $contact__bdr__form--color; 
+    border-width: $contact__bdr__form--size; 
+    border-style: solid;
+}
+@mixin normal-txt {
+    font-family: $txt-fonts;
+    font-size:$caption-size;
+    color:#0a0a0a; 
+}
+
+@mixin caption-txt {
+    font-family: $txt-fonts;
+    font-size: $caption-size;
+    color: $caption-color;
+}
+
+// CON PARAMETROS
+
+@mixin size ($w,$h,$m,$p) {
+    width: $w;
+    height: $h;
+    margin: $m;
+    padding: $p;
+}

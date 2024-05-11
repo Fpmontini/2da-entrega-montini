@@ -17,12 +17,12 @@ main {
 .animate {
     &__fadeInDown {
     animation-duration: 3s;
-}
+    }
     &__fadeInUp {
     animation-duration: 3s;
-}
+    }
     &__fadeIn{ 
-        animation-duration: 4s;
+        animation-duration: 3s;
     }
 }
 .carousel-caption {

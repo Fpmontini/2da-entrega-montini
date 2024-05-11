@@ -10,8 +10,7 @@ footer h2 {
 
 
 .fm__footer__container {
-    padding: 25px;
-    width: 100%;
+    @include size (100%, none, none, 25px);
     border-top: 5px solid #cc2059;
     background-color: #3d3c3cde;
     font-family: audiowide;
@@ -69,8 +68,7 @@ footer h2 {
 .fm__footer-logo {
     justify-content: flex-end;
     align-self: flex-end;
-    width: 450px;
     text-align: center;
-    height: 100px;
+    @include size (450px, 100px, none, none);
 }
 

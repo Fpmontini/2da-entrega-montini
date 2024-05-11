@@ -1,4 +1,16 @@
 @charset "UTF-8";
+.bdr__contact {
+  border-color: #cc2059;
+  border-style: solid;
+  border-width: 4px;
+}
+
+.bdr__form {
+  border-color: #2076f7;
+  border-style: solid;
+  border-width: 4px;
+}
+
 /* reset */
 * {
   margin: 0;
@@ -8,7 +20,7 @@
 }
 
 main {
-  margin-top: 188px;
+  margin-top: 187px;
 }
 
 /* reset-fuentes */
@@ -33,10 +45,10 @@ main {
 /* h1 */
 .fm__h1 {
   padding: 150px 0 50px;
-  text-align: center;
-  color: #f5f5f5;
   font-family: "Audiowide", "sans-serif";
+  color: #f5f5f5;
   font-size: 3rem;
+  text-align: center;
 }
 
 /* header */
@@ -83,7 +95,7 @@ main {
   animation-duration: 3s;
 }
 .animate__fadeIn {
-  animation-duration: 4s;
+  animation-duration: 3s;
 }
 
 .carousel-caption {
@@ -116,12 +128,11 @@ main {
 .fm__cards__description p {
   text-align: justify;
   padding: 0 30px;
-  color: #f5f5f5;
   font-family: "jaldi";
   font-size: 1em;
+  color: #f5f5f5;
 }
 .fm__cards__img {
-  display: flex;
   justify-content: center;
 }
 .fm__cards__img img {
@@ -177,10 +188,9 @@ main {
   border-radius: 10px;
   box-shadow: 0 5px 10px -5px;
   background-color: #d8d3d3;
-  border: 4px solid #cc2059;
   font-family: "jaldi";
   font-size: 1em;
-  color: #000000;
+  color: #0a0a0a;
 }
 .fm__contact__container__form__h2 {
   color: #030303;
@@ -198,10 +208,10 @@ main {
   align-self: flex-end;
   margin-bottom: 30px;
   background-color: #f5f5f5;
-  color: #0e0d0d;
-  border: 4px solid #cc2059;
   border-radius: 5px;
   font-family: "jaldi";
+  font-size: 1em;
+  color: #0a0a0a;
 }
 .fm__contact__container__info__list li {
   padding: 20px;
@@ -223,13 +233,13 @@ main {
 .form-input {
   width: 100%;
   height: 30px;
-  border: none;
+  margin: none;
+  padding: none;
   outline: none;
   text-align: center;
   font-family: "jaldi";
   font-size: 1em;
   background-color: #f5deb3;
-  border-bottom: 3px solid #2076f7;
 }
 .form-input :focus {
   border: 2px dotted #0a0a0a;
@@ -238,6 +248,8 @@ main {
 .form-text_area {
   width: 100%;
   height: 140px;
+  margin: none;
+  padding: none;
   text-align: justify;
   font-family: "jaldi";
   font-size: 0.8em;
@@ -252,9 +264,12 @@ main {
   width: 200px;
   height: 50px;
   margin: 30px;
+  padding: none;
   font-family: audiowide;
   background-color: rgba(197, 189, 189, 0.8705882353);
-  border: 3px solid #2076f7;
+  border-color: #2076f7;
+  border-width: 3px;
+  border-style: solid;
   cursor: pointer;
 }
 
@@ -286,8 +301,10 @@ footer h2 {
 }
 
 .fm__footer__container {
-  padding: 25px;
   width: 100%;
+  height: none;
+  margin: none;
+  padding: 25px;
   border-top: 5px solid #cc2059;
   background-color: rgba(61, 60, 60, 0.8705882353);
   font-family: audiowide;
@@ -332,9 +349,11 @@ footer h2 {
 .fm__footer-logo {
   justify-content: flex-end;
   align-self: flex-end;
-  width: 450px;
   text-align: center;
+  width: 450px;
   height: 100px;
+  margin: none;
+  padding: none;
 }
 
 /* @media */

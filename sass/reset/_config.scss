@@ -12,7 +12,7 @@
 // MAIN -margin
 
 main {
-    margin-top: 188px;
+    margin-top: 187px;
 }
 
 /* reset-fuentes */
@@ -44,10 +44,7 @@ main {
 /* h1 */
 .fm__h1 {
     padding: 150px 0 50px;
-    text-align: $h1-align;
-    color: $h1-color;
-    font-family: $h1-fonts;
-    font-size: $h1-size;
+    @include h1-styles
 }
 
 

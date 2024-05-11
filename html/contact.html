@@ -51,9 +51,9 @@
 
   <main class="fm__Main__contact">
 
-    <div class="container-fluid fm__contact_container">
+    <div class="container-fluid fm__contact_container ">
       <div class="row row__form justify-content-evenly align-items-center ">
-        <div class="fm__contact__container__info col-md-3 col-sm-12">
+        <div class="fm__contact__container__info bdr__contact col-md-3 col-sm-12"> <!--clase generada con @each-->
           <ul class="fm__contact__container__info__list">
             <h2 class="fm__contact__container__info__list--title"><b>Contacto</b></h2>
             <li class="fm__contact__container__info__list--li"><b>Telefono:</b> 11-6682-****</li>
@@ -61,7 +61,7 @@
             <li class="fm__contact__container__info__list--li"><b>E-mail:</b> monbrosimracing@gmail.com</li>
           </ul>
         </div>
-        <div class="fm__contact__container__form col-md-6 col-sm-12">
+        <div class="fm__contact__container__form bdr__contact col-md-6 col-sm-12">
           <form action="form.php" method="post">
             <h2 class="fm__contact__container__form__h2"> CONTACTANOS</h2>
             <p class="fm__contact__container__form__description">Si tenes alguna duda, pedido o sugerencia completa el
@@ -71,18 +71,18 @@
             <div class="form-container">
               <div class="form-group">
                 <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" class="form-input" placeholder="nombre">
+                <input type="text" id="nombre" class="form-input bdr__form" placeholder="nombre">
               </div>
             </div>
             <div class="form-group">
               <label for="email">e-mail</label>
-              <input type="email" id="email" class="form-input" placeholder="e-mail">
+              <input type="email" id="email" class="form-input bdr__form" placeholder="e-mail"> <!--clase generada con @each-->
             </div>
             <div class="form-group">
               <label for="mensaje">Mensaje</label>
               <textarea type="text" id="mensaje" class="form-text_area" placeholder="mensaje"></textarea>
             </div>
-            <input type="submit" class="form-submit">
+            <input type="submit" class="form-submit bdr__form">
           </form>
         </div>
         <div class="fm__contact__container__image d-none d-xl-block col-md-3">

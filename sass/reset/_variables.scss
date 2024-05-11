@@ -26,3 +26,17 @@ $contact__bdr--color:#cc2059;
 $contact__bdr--size:4px;
 $contact__bdr__form--color:#2076f7;
 $contact__bdr__form--size:3px;
+
+$borders: (
+    contact: #cc2059,
+    form: #2076f7,
+);
+
+@each $propiedad, $valor in $borders{
+    .bdr__#{$propiedad}{
+        border-color:$valor;
+        border-style: solid;
+        border-width: 4px;
+    }
+}
+
