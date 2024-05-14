@@ -30,6 +30,7 @@ $contact__bdr__form--size:3px;
 $borders: (
     contact: #cc2059,
     form: #2076f7,
+    us: rgb(12, 12, 12)
 );
 
 @each $propiedad, $valor in $borders{
