@@ -19,7 +19,7 @@ En la sección productos se utilizo el componente "card", personalizando estilos
 ### Animate.css
 
 Se usó la libreria de animaciones de *animate.css*. Para el carousel del index.html se utilizó *fade in down*, *fade in up* y *fade in*. Para las cards de products.html se usó
-*slide in right*, **slide in right*, *fade in up*, *fade in*. En todos los casos se modifico la duración.-
+*slide in right*, *slide in left*, *fade in up*, *fade in*. En todos los casos se modifico la duración.-
 
 ### Sass
 
