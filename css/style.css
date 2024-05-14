@@ -375,6 +375,15 @@ footer h2 {
   .fm__header-container {
     justify-content: start;
   }
+  .fm__header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: flex-end;
+    width: 100%;
+    background-color: #f5f5f5;
+    border-bottom: 5px solid #cc2059;
+  }
   /* @main */
   .fm__h1 {
     font-size: 2em;
