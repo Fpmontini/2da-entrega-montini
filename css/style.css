@@ -301,7 +301,7 @@ main {
 }
 
 /* footer */
-footer h2 {
+footer h6 {
   font-size: 1.5rem;
   -webkit-text-stroke: 0.5px #cc2059;
 }
