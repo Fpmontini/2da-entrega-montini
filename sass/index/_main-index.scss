@@ -33,4 +33,17 @@ main {
     background-color: rgba(0, 0, 0, 0.1);
     /* fondo semitransparente */
     color: white;
+
+    a {
+        font-size: 25px;
+        font-family: jaldi !important;
+        text-decoration: none;
+        color: #f4f5f8;
+    }
+    
+    h5 {
+        font-family:$h2-fonts;
+    }
 }
+
+
