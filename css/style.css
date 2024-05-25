@@ -61,7 +61,7 @@ main {
 .fm__header-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   align-items: flex-end;
   position: fixed;
   top: 0;
@@ -383,6 +383,9 @@ footer h6 {
 /* mobile */
 @media (max-width: 768px) {
   /* @header */
+  .fm__header-container {
+    justify-content: flex-start;
+  }
   .navbar-brand img {
     width: 100%;
   }

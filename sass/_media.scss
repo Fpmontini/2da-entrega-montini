@@ -13,6 +13,10 @@
 @media (max-width: 768px) {
 
     /* @header */
+
+    .fm__header-container {
+        justify-content: flex-start;
+    }
     .navbar-brand img {
         width: 100%;
     }
