@@ -20,7 +20,7 @@ En la sección productos se utilizo el componente "card", personalizando estilos
 
 Se usó la libreria de animaciones de *animate.css*. Para el carousel del index.html se utilizó *fade in down*, *fade in up* y *fade in*. Para las cards de products.html se usó
 *slide in right*, *slide in left*, *fade in up*, *fade in*. En todos los casos se modifico la duración.-
-
+git 
 ### Sass
 
 Se crearon carpetas para cada html a excepcion de las equiquetas *footer* y *header* que estan en la raiz del proyecto ya que las mismas son comunes a todos los html

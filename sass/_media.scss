@@ -42,9 +42,17 @@
     }
 
     .fm__contact__container__form {
+       
         padding: 5px;
     }
+    .fm__contact__container__info {
+        width: 90%;
+        min-width: 300px;
+    }
 
+    .row {
+        width: 100%;
+    }
     /* @footer */
 
     .footer-element {
